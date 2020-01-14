@@ -1,0 +1,19 @@
+
+extend components/template.pug
+block contenidos
+        section.intro
+            .intro__img: img(src="images/foto.jpg", alt="")
+            .intro__contenido
+                h2 #{titulos[0]}
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt animi harum quidem. Obcaecati dolorem odio natus error neque tempora est aut laudantium culpa. Nobis facere dolore atque ipsa voluptatum consectetur.Pariatur tenetur sed alias repellat tempora delectus, iusto ab nemo nisi cumque accusantium! Ipsam porro recusandae blanditiis amet? Ratione est aspernatur fugit tempore facilis delectus quaerat fugiat, neque incidunt eum.
+                    br
+                    span Est necessitatibus, qui nobis distinctio nulla earum nisi error cumque nesciunt veniam.
+                a.boton Leer más
+        main.contenido
+            +caja('foto.jpg',titulos[1],'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt animi harum quidem. Obcaecati dolorem odio natus error neque tempora est aut laudantium culpa.')
+            +caja('foto.jpg',titulos[2],'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt animi harum quidem. Obcaecati dolorem odio natus error neque tempora est aut laudantium culpa.')
+            +caja('foto.jpg',titulos[3],'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt animi harum quidem. Obcaecati dolorem odio natus error neque tempora est aut laudantium culpa.')
+        
+
+
+
